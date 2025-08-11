@@ -18,6 +18,30 @@ M.dap = {
 	}
 }
 
+M.neoterm = {
+	plugin = false,
+	["<leader>tl"] = {
+		"<C-u>exec v:count . 'Tclear'<CR>",
+		"Clear Neoterm (count for terminal number)"
+	},
+	["<leader>tt"] = {
+		"",
+		"Toggle Neoterm (count for terminal number)"
+	},
+	["<leader>tk"] = {
+		"",
+		"Kill Neoterm (count for terminal number)"
+	},
+	["<leader>ts"] = {
+		"",
+		"Show Neoterm (count for terminal number)"
+	},
+	["<leader>th"] = {
+		"",
+		"Hide Neoterm (count for terminal number)"
+	},
+}
+
 M.dap_go = {
 	plugin = true,
 	n = {
