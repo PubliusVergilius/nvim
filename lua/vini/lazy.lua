@@ -81,7 +81,6 @@ require('lazy').setup {
         'nvim-lua/plenary.nvim',
         'andrew-george/telescope-themes',
       },
-     
 
     { 'https://github.com/nvim-treesitter/nvim-treesitter' },
     { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
@@ -160,15 +159,7 @@ require('lazy').setup {
           desc = 'Buffer Local Keymaps (which-key)',
         },
       },
-      spec = {
-        { '<leader>c', group = '[C]ode', mode = { 'n', 'x' } },
-        { '<leader>d', group = '[D]ocument' },
-        { '<leader>r', group = '[R]ename' },
-        { '<leader>s', group = '[S]earch' },
-        { '<leader>w', group = '[W]orkspace' },
-        { '<leader>t', group = '[T]oggle' },
-        { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
-      },
+      spec = {},
     },
     {
       -- Main LSP Configuration
